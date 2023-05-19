@@ -6,8 +6,8 @@ const BlogDetails = ({ selectedPost, handleBackClick }) => {
       </button>
       <div className="blog-description">
         <h2>{selectedPost.title}</h2>
-        <p>{selectedPost.username}</p>
-        <p className="date">{selectedPost.date}</p>
+        <p>{selectedPost.userName}</p>
+        <p className="date">{selectedPost.createdAt}</p>
         <p>{selectedPost.body}</p>
       </div>
     </div>
